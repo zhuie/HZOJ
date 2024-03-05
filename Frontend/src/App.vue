@@ -22,9 +22,6 @@
       <el-menu-item index="/rank">
         <i class="el-icon-star-on"></i>Rank
       </el-menu-item>
-      <el-menu-item index="/wiki">
-        <i class="el-icon-star-off"></i>Wiki
-      </el-menu-item>
       <el-menu-item index="/todolist">
         <i class="el-icon-s-promotion"></i>TodoList
       </el-menu-item>
@@ -43,7 +40,7 @@
                    @command="handleCommand"
                    :show-timeout="100"
                    :split-button="true">
-        <span class="el-dropdown-link">Welcome {{name}}</span>
+        <span class="el-dropdown-link">Welcome HZOJ</span>
         <el-dropdown-menu slot="dropdown">
           <el-dropdown-item command="home">Home</el-dropdown-item>
           <el-dropdown-item command="submittion">Submittion</el-dropdown-item>
